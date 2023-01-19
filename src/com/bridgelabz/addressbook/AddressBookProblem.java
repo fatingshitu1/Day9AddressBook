@@ -1,6 +1,15 @@
 package com.bridgelabz.addressbook;
 
+
 public class AddressBookProblem {
+    private String Name;
+    private String surname;
+    private String address;
+    private String city;
+    private String State;
+    private String zip;
+    private String phone ;
+    private String email;
     public AddressBookProblem(String name, String surname, String address, String city, String state, String zip, String phone, String email) {
         Name = name;
         this.surname = surname;
@@ -12,14 +21,7 @@ public class AddressBookProblem {
         this.email = email;
     }
 
-    private String Name;
-    private String surname;
-    private String address;
-    private String city;
-    private String State;
-    private String zip;
-    private String phone ;
-    private String email;
+
     public void ContactDetails(){
 
     }
