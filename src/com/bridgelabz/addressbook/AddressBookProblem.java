@@ -8,10 +8,11 @@ public class AddressBookProblem {
     private String city;
     private String State;
     private String zip;
-    private String phone ;
+    private String phone;
     private String email;
+
     public AddressBookProblem(String name, String surname, String address, String city, String state, String zip, String phone, String email) {
-        Name = name;
+        this.Name = name;
         this.surname = surname;
         this.address = address;
         this.city = city;
@@ -21,11 +22,44 @@ public class AddressBookProblem {
         this.email = email;
     }
 
-
-    public void ContactDetails(){
-
-    }
     public static void main(String[] args) {
         System.out.println("Welcome to Address Book Program");
+        System.out.println("Show the Person first name");
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getState() {
+        return State;
+    }
+
+    public String getZip() {
+        return zip;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void ContactDetails() {
+
     }
 }
