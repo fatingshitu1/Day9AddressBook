@@ -12,6 +12,9 @@ public class Contact {
     private String phone;
     private String email;
 
+    public Contact() {
+    }
+
     public Contact(String name, String surname, String address, String city, String state, String zip, String phone, String email) {
         this.Name = name;
         this.surname = surname;
